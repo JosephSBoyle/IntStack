@@ -7,7 +7,7 @@ int main(){
     printf(
         "#############################################################\n\n"
         "IntStack:\n\n"
-        "A simple unsigned long integer stack holding up to %d values.\n\n"
+        "A simple unsigned integer stack holding up to %d values.\n\n"
         "Popping or peaking when the stack is empty will print -1.\n\n"
         "Commands:\n"
         "   push :  a positive integer\n"
@@ -19,8 +19,8 @@ int main(){
     );
 
     Stack stack = {};
-
     int value;
+
     while (true){
         printf("> ");
         scanf("%d", &value);

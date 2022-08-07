@@ -1,6 +1,6 @@
 # IntStack
 
-_IntStack_ is a simple implementation of the [stack](https://en.wikipedia.org/wiki/Stack_(abstract_data_type)) data structure implemented in C for the unsigned long data type. A simple command line interface is provided for convenience.
+_IntStack_ is a simple implementation of the [stack](https://en.wikipedia.org/wiki/Stack_(abstract_data_type)) data structure implemented in C for the unsigned integer data type. A simple command line interface is provided for convenience.
 
 The program uses fixed a pre-allocated fixed length array to store the items in the stack. As such, there is a maximum number of items that can be held in the stack at once: `src/stack.h::MAX_STACK_SIZE`.
 
@@ -18,7 +18,7 @@ Run this project in 3 steps!
 
 IntStack:
 
-A simple unsigned long integer stack holding up to 3 values.
+A simple unsigned integer stack holding up to 3 values.
 
 Popping or peaking when the stack is empty will print -1.
 
